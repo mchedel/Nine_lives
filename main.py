@@ -1,0 +1,17 @@
+import random
+
+words = ["pizza", "plane", "sword", "apple", "teeth"]
+lives = 9
+clue = list("?????")
+heart_symbol = u'\u2764'
+guessed = False
+
+while lives > 9:
+    print(clue)
+    print("Lives left: ", heart_symbol * lives)
+    guess = input("Guess letter or a whole word: ")
+    lives -= 1
+
+
+    
+
